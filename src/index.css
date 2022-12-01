@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+:root{
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+
+/* ### Neutral */
+
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body{
+    font: 1.33rem;
+    /* background: var(--Dark-Blue); */
+    /* color: var(--Light-Cyan); */
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+img{
+    width: 100%;
+}
+.main__container{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+.product__card{
+    border-radius: 20px;
+}
+.img img{
+    height: 10em;
+    display: inline-block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
