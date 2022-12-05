@@ -24,8 +24,6 @@ ul li{
 
 body{
     font: 1.33rem;
-    /* background: var(--Dark-Blue); */
-    /* color: var(--Light-Cyan); */
     color: black;
     font-family: 'Manrope', sans-serif;
 }
@@ -38,10 +36,20 @@ img{
 }
 .product__card{
     border-radius: 20px;
+    height: 320px;
 }
 .img img{
     height: 10em;
     display: inline-block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
+}  
+.loader__spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    min-height: 200%; 
+    
 }
